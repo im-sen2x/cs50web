@@ -4,3 +4,6 @@ notes for week 1
 2. git branch (branch name)
 3. git checkout (branch name)
 4. git commit -am (message) add and commit all the files that has been changed
+5. git push --set-upstream origin (branch name)
+6. git fetch + git merge origin/master = git pull
+7.
