@@ -1,0 +1,64 @@
+*, *::before, *::after {box-sizing: border-box}
+
+
+#content-container{
+    justify-content: space-evenly;
+}
+
+iframe, table{
+    margin-top: auto;
+    margin-bottom: auto;
+    
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+tr td{
+    font-weight: 600;
+}
+
+/* 340 px */
+@media only screen and (max-width: 643px){
+    iframe{
+        width: 330px;
+        height: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    table{
+        margin-bottom: 20px;
+    }
+
+    tr td{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 644px) and (max-width: 933px){
+    iframe{
+        width: 350px;
+        height: 300px;
+    }
+
+    tr td{
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (min-width: 934px) and (max-width: 991px){
+
+    iframe{
+        width: 400px;
+        height: 300px;
+    }
+
+    tr td{
+        font-size: 0.8rem;
+    }
+
+}
+
